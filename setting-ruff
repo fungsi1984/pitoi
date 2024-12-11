@@ -1,0 +1,9 @@
+{
+    "ruff.format.preview": true,
+    "ruff.lint.preview": true,
+    "ruff.nativeServer": true,
+    "ruff.lint.ignore": [
+        "E741",
+        "F841"
+    ]
+}
