@@ -1,10 +1,12 @@
 from typing import List, Optional
 
+
 class HashTableEntry:
     def __init__(self, key: int, value: int, next: Optional[int] = None):
         self.key = key
         self.value = value
         self.next = next
+
 
 class HashTable:
     def __init__(self, size: int):
@@ -41,6 +43,7 @@ class HashTable:
             entry_index = self.entries[entry_index].next
 
         return None
+
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
